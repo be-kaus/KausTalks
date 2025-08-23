@@ -93,8 +93,6 @@ export const LoginUser = async (req, res, next) => {
   }
 };
 
-export const GoogleLogin = async (req, res, next) => {};
-
 export const SendOTPForRegister = async (req, res, next) => {
   try {
     const { fullName, email, password } = req.body;
@@ -153,3 +151,6 @@ export const SendOTPForRegister = async (req, res, next) => {
 };
 
 export const SendOTPForLogin = async (req, res, next) => {};
+
+
+export const GoogleLogin = async (req, res, next) => {};
