@@ -115,7 +115,7 @@ const LoginPage = () => {
           </motion.button>
         </form>
 
-        <div className="divider">OR</div>
+        <div className="divider mt-5 mb-5">OR</div>
 
         <div>
             <button
