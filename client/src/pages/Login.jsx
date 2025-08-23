@@ -33,7 +33,7 @@ const LoginPage = () => {
         password: "",
       });
 
-      navigate("/"); // redirect to homepage/dashboard
+      navigate("/dashboard"); // redirect to homepage/dashboard
     } catch (error) {
       toast.error(
         `Error : ${error.response?.status || error.message} | ${

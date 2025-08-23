@@ -8,6 +8,7 @@ import LoginPage from "./pages/Login.jsx";
 import ServicesPage from "./pages/Services.jsx";
 import HomePage from "./pages/Home.jsx";
 import SignupPage from "./pages/SignUp.jsx";
+import UserDashboard from "./pages/UserDashboard.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/register" element={<SignupPage />} />
+          <Route path="/dashboard" element={<UserDashboard />} />
+
 
           {/* <Route path="/logout" element={<div>Logout</div>} /> */}
           {/* <Route path="/register" element={<div>register</div>} /> */}
