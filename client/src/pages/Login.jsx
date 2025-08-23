@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import api from "../config/api";
 import { toast } from "react-hot-toast";
+import { FcGoogle } from "react-icons/fc"
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -43,6 +44,10 @@ const LoginPage = () => {
     }
   };
 
+  const GoogleLogin = () => {
+    console.log('Google Login');
+    
+  }
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/20 via-base-100 to-secondary/20 p-6">
       <motion.div
@@ -109,6 +114,20 @@ const LoginPage = () => {
             🔑 Login
           </motion.button>
         </form>
+
+        <div className="divider">OR</div>
+
+        <div>
+            <button
+              type="submit"
+              className="btn btn-secondary w-full flex items-center justify-center gap-2"
+              onClick={GoogleLogin}
+            >
+             <FcGoogle className='text-2xl'/>
+             Sign in with Google
+            </button>
+          </div>
+
 
         {/* Register */}
         <p className="text-center text-gray-600 mt-8">
