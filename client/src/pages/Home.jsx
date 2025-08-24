@@ -55,9 +55,9 @@ const HomePage = () => {
   ];
 
   const testimonials = [
-    { name: "Aarav", text: "🔥 ChatApp is super smooth and fast! Love the design." },
-    { name: "Priya", text: "💯 Finally a chat app that feels modern and easy to use." },
-    { name: "Karan", text: "🚀 Secure, fast, and I can use it on all my devices." },
+    { name: "Ayush", text: "🔥 ChatApp is super smooth and fast! Love the design." },
+    { name: "Lalit", text: "💯 Finally a chat app that feels modern and easy to use." },
+    { name: "Swahil", text: "🚀 Secure, fast, and I can use it on all my devices." },
   ];
 
   return (
