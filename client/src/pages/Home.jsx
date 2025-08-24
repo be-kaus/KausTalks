@@ -43,7 +43,7 @@ const HomePage = () => {
     { icon: "💬", title: "Real-Time Chat", desc: "Send & receive messages instantly." },
     { icon: "👥", title: "Group Chats", desc: "Create groups for friends or work." },
     { icon: "📁", title: "File Sharing", desc: "Share images, videos, and docs securely." },
-    { icon: "📞", title: "Voice Calls", desc: "Crystal-clear voice calls powered by WebRTC." },
+    { icon: "📞", title: "Voice Calls", desc: "Crystal-clear voice calls powered by Raju AudioWala." },
     { icon: "🎥", title: "Video Calls", desc: "High-quality video with screen sharing." },
     { icon: "🔒", title: "Secure & Private", desc: "End-to-end encryption keeps data safe." },
   ];
