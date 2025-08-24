@@ -277,6 +277,7 @@ const HomePage = () => {
             </div>
           </section>
 
+
           {/* CTA */}
           <section className="px-10 py-20 text-center bg-gradient-to-r from-primary/10 to-secondary/10">
             <motion.h2

@@ -9,6 +9,7 @@ import ServicesPage from "./pages/Services.jsx";
 import HomePage from "./pages/Home.jsx";
 import SignupPage from "./pages/SignUp.jsx";
 import UserDashboard from "./pages/UserDashboard.jsx";
+import Chat from "./pages/Chat.jsx";
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/register" element={<SignupPage />} />
           <Route path="/dashboard" element={<UserDashboard />} />
+          <Route path="/chat" element={<Chat />} />
+
 
 
           {/* <Route path="/logout" element={<div>Logout</div>} /> */}
