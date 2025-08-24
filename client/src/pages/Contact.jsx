@@ -101,7 +101,7 @@ const ContactPage = () => {
       <div className="max-w-5xl mx-auto mt-20 rounded-3xl overflow-hidden shadow-lg">
         <iframe
           title="ChatApp Location"
-          src="https://maps.google.com/maps?q=Indore,%20Madhya%20Pradesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=Bhopal,%20Madhya%20Pradesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="400"
           style={{ border: 0 }}
