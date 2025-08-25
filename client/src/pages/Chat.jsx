@@ -26,7 +26,7 @@ const Chat = () => {
           transition={{ duration: 0.6 }}
           className="w-1/4 bg-white/80 backdrop-blur-lg border-r border-gray-200 shadow-lg flex flex-col"
         >
-          <h2 className="text-xl font-bold p-4 border-b border-gray-200">
+          <h2 className="text-2xl font-bold p-4 pb-6 border-b border-gray-200">
             Contacts
           </h2>
           <div className="flex-1 overflow-y-auto">
